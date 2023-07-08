@@ -1,30 +1,27 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <div class="home">
-     
-      <h1>Aprender nunca fue tan facil</h1>
-      <h2>En solo 3 simples pasos</h2>
+    <div id="app">
+    <nav>
+      <router-link to="/">Inicio</router-link>
+      <router-link to="/profesores">Profesores</router-link>
+      <router-link to="/clases">Clases</router-link>
+    </nav>
+    <router-view/>
+  </div>
+    <div> 
+        <article>
+            <h1>1. Busca</h1>
+            <p>Busca con toda libertad entre varios perfiles y contacta al profesor que más se acerque a tus necesidades (tarifas, preparación, opiniones, el más cercano o en línea).</p>
+        </article>
+        <article>
+            <h1>2. Conecta</h1>
+            <p>De manera rápida, nuestros profesores te responderán en unas cuantas horas. Y si no encuentras al profesor indicado, nos encargamos de ayudarte.</p>
+            <img src="" alt="">
+        </article>
+        <article>
+            <h1>3. Ponganse de acuerdo</h1>
+            <p>De manera rápida, nuestros profesores te responderán en unas cuantas horas. Y si no encuentras al profesor indicado, nos encargamos de ayudarte.</p>
+            <img src="" alt="">
+        </article>
     </div>
-    <article>
-        <h4>1. Busca</h4>
-    </article>
-  </template>
-  
-  
-  <style>
-    h1,h2{
-        
-        font-family: sans-serif;
-        text-align: center;
-    }
-    .home{
-        background-color: antiquewhite;
-    }
-    div#app{
-        background-color: rgb(196, 39, 39);
-        text-align: right;
-    }
-</style>
-
-  
-  
+</template>
