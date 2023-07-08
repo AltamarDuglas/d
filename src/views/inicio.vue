@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <div id="app">
+ <div id="app">
     <nav>
       <router-link to="/">Inicio</router-link>
       <router-link to="/profesores">Profesores</router-link>
